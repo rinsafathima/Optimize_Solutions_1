@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  @apply text-center p-10 bg-white dark:bg-gray-900;
+}
+
+button {
+  @apply  bg-indigo-400 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded m-8; 
+}
+
+h1{
+  @apply my-8 text-7xl font-extrabold leading-none tracking-tight text-indigo-500;
+}
+
+h2{
+  @apply my-4 text-4xl font-extrabold text-gray-500;
+}
+
+p{
+  @apply mb-4 text-lg font-normal  dark:text-white;
+}
+
+
+
+
